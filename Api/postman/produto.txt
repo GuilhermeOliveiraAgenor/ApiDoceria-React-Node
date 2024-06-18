@@ -1,0 +1,51 @@
+Post
+
+http://localhost:8000/produto/listarProduto
+
+
+Get
+
+http://localhost:8000/produto/cadastrarProduto
+http://localhost:8000/produto/produtoAtivo
+http://localhost:8000/produto/precoProduto
+http://localhost:8000/produto/nomeProduto
+
+
+[
+    {
+        "descricao": "Coca cola",
+        "preco": 10,
+        "status": "ativo",
+        "desconto": 2,
+    },
+    {
+        "descricao": "Guarana",
+        "preco": 15,
+        "status": "inativo",
+        "desconto": 2,
+    },
+    {
+        "descricao": "Fanta",
+        "preco": 25,
+        "status": "ativo",
+        "desconto": 2,
+    },
+    {
+        "descricao": "Pepsi",
+        "preco": 5,
+        "status": "inativo",
+        "desconto": 2,
+    },
+    {
+        "descricao": "Kuat",
+        "preco": 7,
+        "status": "ativo",
+        "desconto": 2,
+    },
+    {
+        "descricao": "Coca 350ml",
+        "preco": 5,
+        "status": "inativo",
+        "desconto": 2,
+    }
+]

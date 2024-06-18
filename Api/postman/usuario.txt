@@ -1,0 +1,22 @@
+Post
+http://localhost:8000/usuario/cadastrarUsuario
+
+Get
+http://localhost:8000/usuario/listarUsuario
+
+Get
+http://localhost:8000/usuario/pesquisarId/:id
+
+Patch
+http://localhost:8000/usuario/editarUsuario/:id
+
+Delete
+http://localhost:8000/usuario/excluirUsuario/:id
+
+ {
+    "nome": "joao",
+    "telefone": "1",
+    "email": "joao@gmail",
+    "senha": "joao123",
+},
+   

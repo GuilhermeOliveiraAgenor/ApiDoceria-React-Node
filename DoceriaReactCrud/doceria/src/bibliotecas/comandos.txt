@@ -1,0 +1,9 @@
+Instalar
+
+npm install
+npx create-react-app nomeaplicacao
+cd nomeaplicacao
+npm install react-router-dom axios
+
+Para rodar
+npm start
