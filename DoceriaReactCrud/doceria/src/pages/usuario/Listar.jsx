@@ -20,6 +20,10 @@ const Listar = () =>{
 
     return(
         <div>
+             <tr style={{display: 'flex',justifyContent: 'center',alignItems: 'center', width: '100%', backgroundColor: '#A0522D',width: '100%', height: '100px' }} >
+            <th>Doceria</th>
+        <th>CACAU SWEET</th>
+        </tr>
             <div>
                 <button onClick={() =>navigate('/user')}>Cadastrar</button>
             </div>
@@ -45,6 +49,9 @@ const Listar = () =>{
             </tbody>
         </table>
         <div>
+            <button onClick={() => navigate('/produtoativo')}>Produtos ativos</button>
+            <button onClick={() => navigate('/produtopreco')}>Produtos com preço igual ou maior que 10 reais</button>
+            <button onClick={() => navigate('/produtonome')}>Produto que tenham a letra C</button>
         </div>
         </div>
     )

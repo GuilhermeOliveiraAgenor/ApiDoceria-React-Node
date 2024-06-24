@@ -33,6 +33,10 @@ const User = () =>{
     return(
         <main>
         <div>
+        <tr style={{display: 'flex',justifyContent: 'center',alignItems: 'center', width: '100%', backgroundColor: '#A0522D',width: '100%', height: '100px' }} >
+            <th>Doceria</th>
+        <th>CACAU SWEET</th>
+        </tr>
             <div>
                Imagem
             </div>

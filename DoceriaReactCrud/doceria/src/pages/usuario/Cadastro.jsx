@@ -60,13 +60,17 @@ const Cadastro = () =>{
     return(
         <main>
         <div>
+        <tr style={{display: 'flex',justifyContent: 'center',alignItems: 'center', width: '100%', backgroundColor: '#A0522D',width: '100%', height: '100px' }} >
+            <th>Doceria</th>
+        <th>CACAU SWEET</th>
+        </tr>
             <div>
                Imagem
             </div>
             <div>
             <p> Já tem cadastro ? <a href='../login/login'>Clique Aqui</a></p>
             <form onSubmit={alterar}>
-                <div>
+                <div >
                     <label>Nome{nome}</label>
                     <input type='text' id='nome' defaultValue={usuarios.nome} onChange={(e)=> setNome(e.target.value)} placeholder='Digite o nome' maxLength={50} required/>
                 </div>

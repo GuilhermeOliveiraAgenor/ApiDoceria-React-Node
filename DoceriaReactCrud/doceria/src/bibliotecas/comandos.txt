@@ -4,6 +4,7 @@ npm install
 npx create-react-app nomeaplicacao
 cd nomeaplicacao
 npm install react-router-dom axios
+npm i --save-dev eslint-plugin-jest
 
 Para rodar
 npm start
