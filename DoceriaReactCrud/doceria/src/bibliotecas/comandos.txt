@@ -1,10 +1,11 @@
-Instalar
+Install
 
 npm install
 npx create-react-app@latest nomeaplicacao
 cd nomeaplicacao
 npm install react-router-dom axios
+npm install cors --save
 npm i --save-dev eslint-plugin-jest
 
-Para rodar
+Run
 npm start
