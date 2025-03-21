@@ -1,7 +1,7 @@
 Instalar
 
 npm install
-npx create-react-app nomeaplicacao
+npx create-react-app@latest nomeaplicacao
 cd nomeaplicacao
 npm install react-router-dom axios
 npm i --save-dev eslint-plugin-jest
