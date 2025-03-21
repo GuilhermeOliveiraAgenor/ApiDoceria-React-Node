@@ -5,6 +5,8 @@ npx create-react-app@latest nomeaplicacao
 cd nomeaplicacao
 npm install react-router-dom axios
 npm install cors --save
+
+if necessary
 npm i --save-dev eslint-plugin-jest
 
 Run
